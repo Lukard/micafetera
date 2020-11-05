@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <Header />
-    <Menu />
+  <Frame>
     <div class="cookies">
       <h1>Política de cookies</h1>
       <p>
@@ -201,21 +199,16 @@
         >
       </p>
     </div>
-    <Footer />
-  </div>
+  </Frame>
 </template>
 
 <script>
-import Header from '@/components/Header.vue';
-import Menu from '@/components/Menu.vue';
-import Footer from '@/components/Footer.vue';
+import Frame from '@/components/Frame.vue';
 
 export default {
-  name: 'Home',
+  name: 'Cookies',
   components: {
-    Header,
-    Menu,
-    Footer,
+    Frame,
   },
 };
 </script>

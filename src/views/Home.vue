@@ -1,7 +1,5 @@
 <template>
-  <div class="home">
-    <Header />
-    <Menu />
+  <Frame>
     <main class="main">
       <h1>Las mejores marcas de cafeteras de 2020</h1>
       <p>
@@ -10,21 +8,16 @@
         modelos y anímate a comprar el modelo que más te guste.
       </p>
     </main>
-    <CookiesBanner />
-  </div>
+  </Frame>
 </template>
 
 <script>
-import Header from '@/components/Header.vue';
-import Menu from '@/components/Menu.vue';
-import CookiesBanner from '@/components/CookiesBanner.vue';
+import Frame from '@/components/Frame.vue';
 
 export default {
   name: 'Home',
   components: {
-    Header,
-    Menu,
-    CookiesBanner,
+    Frame,
   },
 };
 </script>
