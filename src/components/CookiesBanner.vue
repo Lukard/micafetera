@@ -8,19 +8,32 @@
             >Leer más</router-link
           >
         </div>
-        <button @click="show = !show">OK</button>
+        <button @click="setCookiesBannerAccepted">OK</button>
       </div>
     </div>
   </transition>
 </template>
 
 <script>
+import Vue from 'vue';
+import VueCookies from 'vue-cookies';
+
 export default {
   name: 'CookiesBanner',
   data() {
     return {
-      show: true,
+      show: false,
     };
+  },
+  methods: {
+    setCookiesBannerAccepted: function() {
+      this.show = false;
+      this.$cookies.set('areCookiesAccepted', true);
+    },
+  },
+  created() {
+    Vue.use(VueCookies);
+    this.show = 'true' !== this.$cookies.get('areCookiesAccepted');
   },
 };
 </script>
