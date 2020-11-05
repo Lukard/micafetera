@@ -1,6 +1,6 @@
 <template>
   <div class="header-image-container">
-    <router-link to="/" class="header-image" rel="home">
+    <router-link :to="{ name: 'Home' }" class="header-image" rel="home">
       <img src="../assets/micafetera.png" alt="Mi Cafetera" width="100%" />
     </router-link>
   </div>
