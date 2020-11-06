@@ -15,25 +15,25 @@
 </template>
 
 <script>
-import Vue from 'vue';
-import VueCookies from 'vue-cookies';
+import Vue from "vue";
+import VueCookies from "vue-cookies";
 
 export default {
-  name: 'CookiesBanner',
+  name: "CookiesBanner",
   data() {
     return {
       show: false,
     };
   },
   methods: {
-    setCookiesBannerAccepted: function() {
+    setCookiesBannerAccepted: function () {
       this.show = false;
-      this.$cookies.set('areCookiesAccepted', true);
+      this.$cookies.set("areCookiesAccepted", true);
     },
   },
   created() {
     Vue.use(VueCookies);
-    this.show = 'true' !== this.$cookies.get('areCookiesAccepted');
+    this.show = "true" !== this.$cookies.get("areCookiesAccepted");
   },
 };
 </script>
@@ -41,7 +41,7 @@ export default {
 <style scoped>
 .banner {
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: #c6baad;
 
