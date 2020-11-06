@@ -3,7 +3,9 @@
     <Header />
     <Menu />
     <CookiesBanner />
-    <slot></slot>
+    <main class="content">
+      <slot></slot>
+    </main>
     <Footer />
   </div>
 </template>
@@ -24,3 +26,14 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.content {
+  margin-top: 16px;
+  max-width: 800px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
