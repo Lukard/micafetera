@@ -22,8 +22,6 @@ export default {
 
 <style scoped>
 p {
-  text-align: left;
-  font-size: 1rem;
   line-height: 150%;
 }
 </style>

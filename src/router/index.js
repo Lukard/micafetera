@@ -15,6 +15,11 @@ const routes = [
     name: 'Cookies',
     component: () => import('../views/Cookies.vue'),
   },
+  {
+    path: '/politica-de-privacidad',
+    name: 'Privacy',
+    component: () => import('../views/Privacy.vue'),
+  },
 ];
 
 const router = new VueRouter({
