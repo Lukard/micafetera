@@ -1,10 +1,13 @@
 <template>
   <div class="footer">
-    <router-link :to="{ name: 'Cookies' }" rel="política de cookies">
+    <router-link :to="{ name: 'Cookies' }">
       Política de cookies
     </router-link>
-    <router-link :to="{ name: 'Privacy' }" rel="política de cookies">
+    <router-link :to="{ name: 'Privacy' }">
       Política de privacidad
+    </router-link>
+    <router-link :to="{ name: 'Legal' }">
+      Aviso Legal
     </router-link>
   </div>
 </template>

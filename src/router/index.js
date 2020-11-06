@@ -20,6 +20,11 @@ const routes = [
     name: 'Privacy',
     component: () => import('../views/Privacy.vue'),
   },
+  {
+    path: '/aviso-legal',
+    name: 'Legal',
+    component: () => import('../views/Legal.vue'),
+  },
 ];
 
 const router = new VueRouter({
