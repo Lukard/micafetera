@@ -25,6 +25,10 @@ const routes = [
     name: 'Legal',
     component: () => import('../views/Legal.vue'),
   },
+  {
+    path: '*',
+    redirect: '/',
+  },
 ];
 
 const router = new VueRouter({
