@@ -1,6 +1,6 @@
 <template>
   <Frame>
-    <h1>Las mejores marcas de cafeteras de 2020</h1>
+    <h1>Despierta el barista que llevas dentro</h1>
     <p>
       <b>¿A quien no le gusta un buen café?</b> Especialmente por las mañanas,
       una taza de café recien preparada con nuestra máquina de café puede darnos
@@ -17,6 +17,8 @@
       toda la vida. <b>Busca y compara</b> los diferentes modelos y anímate a
       comprar el modelo que más te guste.
     </p>
+    <h1>Análisis de las mejores cafeteras de 2020</h1>
+    <Cluster />
     <h1>¿Qué cafetera comprar?</h1>
     <p>
       Hoy en día existe una amplia variedad de cafeteras en el mercado
@@ -100,14 +102,16 @@
 </template>
 
 <script>
-import Frame from '@/components/Frame.vue';
-import AfiliateRow from '@/components/AfiliateRow.vue';
+import Frame from "@/components/Frame.vue";
+import AfiliateRow from "@/components/AfiliateRow.vue";
+import Cluster from "@/components/Cluster.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     Frame,
     AfiliateRow,
+    Cluster,
   },
 };
 </script>
