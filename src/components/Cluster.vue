@@ -1,42 +1,39 @@
 <template>
   <ul class="cluster">
-    <li class="item">
-      <h2 class="title">
-        Krups EA8108 Roma: La mejor cafetera automática del 2020 calidad-precio
-      </h2>
-    </li>
-    <li class="item">
-      <h2 class="title">
-        Krups EA8108 Roma: La mejor cafetera automática del 2020 calidad-precio
-      </h2>
-    </li>
-    <li class="item">
-      <h2 class="title">
-        Krups EA8108 Roma: La mejor cafetera automática del 2020 calidad-precio
-      </h2>
-    </li>
-    <!--<ClusterItem
-      image="../assets/home_automatic.png"
+    <ClusterItem
+      :image="require('../assets/home_automatic.png')"
       text="Krups EA8108 Roma: La mejor cafetera automática del 2020 calidad-precio"
     />
     <ClusterItem
-      image="../assets/home_express.png"
+      :image="require('../assets/home_express.png')"
       text="Cecotec Power Espresso 20: Tu espresso de bar a un precio imbatible"
     />
     <ClusterItem
-      image="../assets/home_italiana.png"
-      text="Orbegozo KFN 610: La mejor cafetera italiana del mercado en 2020"
-    />-->
+      :image="require('../assets/home_italiana.png')"
+      text="Orbegozo KFN 610: Preciosa cafetera italiana al alcance de cualquiera"
+    />
+    <ClusterItem
+      :image="require('../assets/home_french.png')"
+      text="Bodum 1913-01: Bonita y funcional cafetera de prensa con diseño elegante"
+    />
+    <ClusterItem
+      :image="require('../assets/home_dropping.png')"
+      text="Bonsenkitchen: Gran capacidad en esta cómoda cafetera de goteo"
+    />
+    <ClusterItem
+      :image="require('../assets/home_capsules.png')"
+      text="Nespresso De'Longhi Inissia: Buque insignia de la marca lider de cafetera de capsulas"
+    />
   </ul>
 </template>
 
 <script>
-//import ClusterItem from '@/components/ClusterItem.vue';
+import ClusterItem from '@/components/ClusterItem.vue';
 
 export default {
   name: 'Cluster',
   components: {
-    //ClusterItem,
+    ClusterItem,
   },
 };
 </script>
@@ -45,42 +42,9 @@ export default {
 .cluster {
   display: flex;
   padding-inline-start: 0;
+  flex-wrap: wrap;
 }
-.item {
-  flex-grow: 1;
-  height: 256px;
-  background: url('../assets/home_automatic.png') no-repeat center;
-  background-size: contain;
-  position: relative;
-}
-.item:before {
-  content: ' ';
-  z-index: 0;
-  background: linear-gradient(to bottom, transparent 0%, #000 100%);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-.item:hover:before {
-  content: ' ';
-  z-index: 0;
-  background: linear-gradient(to bottom, transparent 0%, rgb(59, 59, 59) 100%);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-.title {
-  position: absolute;
-  bottom: 0;
-  margin: 16px;
-  color: #c6baad;
-}
-.ul,
-li {
+.ul {
   list-style-type: none;
 }
 </style>
