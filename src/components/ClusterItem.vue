@@ -14,9 +14,16 @@ export default {
 
 <style scoped>
 .item {
-  width: calc(800px / 3);
+  width: 100%;
   height: 256px;
   position: relative;
+}
+@media (min-width: 800px) {
+  .item {
+    width: calc(800px / 3);
+    height: 256px;
+    position: relative;
+  }
 }
 .item:after {
   content: ' ';
