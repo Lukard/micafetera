@@ -52,7 +52,7 @@
 
 <script>
 export default {
-  name: "Menu",
+  name: 'Menu',
   data() {
     return {
       windowWidth: window.innerWidth,
@@ -106,7 +106,7 @@ export default {
   cursor: pointer;
 }
 .fab:hover {
-  background-color: #c6baadA0;
+  background-color: #c6baada0;
 }
 .fab:focus {
   outline: none;

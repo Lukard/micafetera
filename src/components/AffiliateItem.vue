@@ -43,13 +43,18 @@ export default {
   props: ['productUrl', 'affiliateUrl'],
   mounted: async function() {
     const url =
-      process.env === 'development'
+      process.env.NODE_ENV == 'development'
         ? `https://cors-anywhere.herokuapp.com/${this.productUrl}`
         : this.productUrl;
     const html = await (await fetch(url)).text();
     const doc = new DOMParser().parseFromString(html, 'text/html');
-    const title = doc.getElementById('productTitle').textContent.trim();
-    const image = doc.getElementById('landingImage').src;
+    const title =
+      doc.getElementById('productTitle')?.textContent?.trim() ??
+      doc.getElementById('title')?.textContent?.trim();
+    console.log(title);
+    const image =
+      doc.getElementById('landingImage')?.getAttribute('data-old-hires') ??
+      doc.getElementById('main-image')?.getAttribute('data-a-hires');
     const isPrime =
       doc
         .getElementById('priceBadging_feature_div')
@@ -124,6 +129,7 @@ export default {
   text-align: center;
   position: relative;
   cursor: pointer;
+  z-index: -1;
 }
 .buy:hover {
   background: linear-gradient(to bottom, #f5d78e, #eeb933);
