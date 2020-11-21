@@ -19,6 +19,8 @@
     </p>
     <h1>Análisis de las mejores cafeteras de 2020</h1>
     <Cluster />
+    <h1>Catálogo de cafetras al mejor precio:</h1>
+    <AffiliateGrid />
     <h1>¿Qué cafetera comprar?</h1>
     <p>
       Hoy en día existe una amplia variedad de cafeteras en el mercado
@@ -102,16 +104,18 @@
 </template>
 
 <script>
-import Frame from "@/components/Frame.vue";
-import AfiliateRow from "@/components/AfiliateRow.vue";
-import Cluster from "@/components/Cluster.vue";
+import Frame from '@/components/Frame.vue';
+import AfiliateRow from '@/components/AfiliateRow.vue';
+import Cluster from '@/components/Cluster.vue';
+import AffiliateGrid from '@/components/AffiliateGrid.vue';
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     Frame,
     AfiliateRow,
     Cluster,
+    AffiliateGrid,
   },
 };
 </script>
