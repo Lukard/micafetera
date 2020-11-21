@@ -42,10 +42,7 @@ export default {
   },
   props: ['productUrl', 'affiliateUrl'],
   mounted: async function() {
-    const url =
-      process.env.NODE_ENV == 'development'
-        ? `https://cors-anywhere.herokuapp.com/${this.productUrl}`
-        : this.productUrl;
+    const url = `https://cors-anywhere.herokuapp.com/${this.productUrl}`;
     const html = await (await fetch(url)).text();
     const doc = new DOMParser().parseFromString(html, 'text/html');
     const title =
