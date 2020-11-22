@@ -48,7 +48,6 @@ export default {
     const title =
       doc.getElementById('productTitle')?.textContent?.trim() ??
       doc.getElementById('title')?.textContent?.trim();
-    console.log(title);
     const image =
       doc.getElementById('landingImage')?.getAttribute('data-old-hires') ??
       doc.getElementById('main-image')?.getAttribute('data-a-hires');
@@ -126,7 +125,6 @@ export default {
   text-align: center;
   position: relative;
   cursor: pointer;
-  z-index: -1;
 }
 .buy:hover {
   background: linear-gradient(to bottom, #f5d78e, #eeb933);

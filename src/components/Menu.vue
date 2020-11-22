@@ -90,6 +90,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  z-index: 1;
 }
 .fab {
   width: 56px;

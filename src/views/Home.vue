@@ -21,6 +21,63 @@
     <Cluster />
     <h1>Catálogo de cafetras al mejor precio:</h1>
     <AffiliateGrid />
+    <h1>¿Cuál es tu cafetera ideal?</h1>
+    <p>
+      Hoy en día existen un sinfin de modelos por lo que no es de extrañar
+      pregurntarse <b>¿Qué cafetera debo comprar</b>? No te preocupes, en
+      <b>micafetera.net</b> las hemos clasificado todas para que encuentres la
+      mejor cafetera que se ajuste a tus necesidades.
+    </p>
+    <div class="machine-types">
+      <article class="machine-type">
+        <img
+          src="../assets/home_type_express.jpg"
+          alt="Cafeteras express"
+          class="machine-type-image"
+        />
+        <h3 class="machine-type-title">Cafeteras express</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/home_type_automatic.webp"
+          alt="Cafeteras automáticas"
+          class="machine-type-image"
+        />
+        <h3 class="machine-type-title">Cafeteras automáticas</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/home_type_capsules.jpg"
+          alt="Cafeteras de cápsulas"
+          class="machine-type-image"
+        />
+        <h3 class="machine-type-title">Cafeteras de cápsulas</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/home_type_dropping.jpg"
+          alt="Cafeteras de goteo"
+          class="machine-type-image"
+        />
+        <h3 class="machine-type-title">Cafeteras de goteo</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/home_type_italian.jpeg"
+          alt="Cafeteras italianas"
+          class="machine-type-image"
+        />
+        <h3 class="machine-type-title">Cafeteras italianas</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/home_type_french.jpg"
+          alt="Cafeteras de émbolo"
+          class="machine-type-image"
+        />
+        <h3 class="machine-type-title">Cafeteras de émbolo</h3>
+      </article>
+    </div>
     <h1>¿Qué cafetera comprar?</h1>
     <p>
       Hoy en día existe una amplia variedad de cafeteras en el mercado
@@ -140,5 +197,27 @@ p {
   .section-image {
     width: 50%;
   }
+}
+.machine-types {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.machine-type {
+  flex: 1;
+  min-width: 100%;
+}
+@media (min-width: 768px) {
+  .machine-type {
+    min-width: 30%;
+  }
+}
+.machine-type-image {
+  object-fit: cover;
+  width: 100%;
+  height: 156px;
+}
+.machine-type-title {
+  margin-top: 8px;
 }
 </style>

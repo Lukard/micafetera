@@ -74,6 +74,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
   margin-top: 16px;
+  margin-bottom: 16px;
 }
 .see_more:visited {
   text-decoration: inherit;
@@ -87,6 +88,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
   margin-top: 16px;
+  margin-bottom: 16px;
 }
 .see_more:hover {
   background-color: rgba(0, 0, 0, 0.9);
