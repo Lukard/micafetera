@@ -78,6 +78,205 @@
         <h3 class="machine-type-title">Cafeteras de émbolo</h3>
       </article>
     </div>
+    <h1>Marcas de cafeteras</h1>
+    <p>
+      Te mostramos las características y las mejores ofertas de cafeteras de las
+      principales marcas del sector.
+    </p>
+    <div class="machine-types">
+      <article class="machine-type">
+        <img
+          src="../assets/brand_delonghi.png"
+          alt="Cafeteras Delonghi"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Delonghi</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_nespresso.png"
+          alt="Cafeteras Nespresso"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Nespresso</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_krups.png"
+          alt="Cafeteras Krups"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Krups</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_cecotec.png"
+          alt="Cafeteras Cecotec"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Cecotec</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_philips.png"
+          alt="Cafeteras Philips"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Philips</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_melitta.png"
+          alt="Cafeteras Melitta"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Melitta</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_ikohs.png"
+          alt="Cafeteras Ikohs"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Ikohs</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_siemens.png"
+          alt="Cafeteras Siemens"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Siemens</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_bosch.png"
+          alt="Cafeteras Bosch"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Bosch</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_ufesa.png"
+          alt="Cafeteras Ufesa"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Ufesa</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_taurus.png"
+          alt="Cafeteras Taurus"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Taurus</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_bonsenkitchen.png"
+          alt="Cafeteras BonsenKitchen"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras BonsenKitchen</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_aigostar.png"
+          alt="Cafeteras Aigostar"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Aigostar</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_rusell_hobbs.png"
+          alt="Cafeteras Russell Hobbs"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Rusell Hobbs</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_tristar.png"
+          alt="Cafeteras Tristar"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Tristar</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_orbegozo.png"
+          alt="Cafeteras Orbegozo"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Orbegozo</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_monix.png"
+          alt="Cafeteras Monix"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Monix</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_godmorn.png"
+          alt="Cafeteras Godmorn"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Godmorn</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_bialetti.png"
+          alt="Cafeteras Bialetti"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Bialetti</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_magfesa.png"
+          alt="Cafeteras Magfesa"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Magfesa</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_oroley.png"
+          alt="Cafeteras Oroley"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Oroley</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_bonvivo.png"
+          alt="Cafeteras bonVIVO"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras bonVIVO</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_bodum.png"
+          alt="Cafeteras Bodum"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Bodum</h3>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_gronenberg.png"
+          alt="Cafeteras Gronenberg"
+          class="machine-brand-image"
+        />
+        <h3 class="machine-type-title">Cafeteras Gronenberg</h3>
+      </article>
+    </div>
     <h1>¿Qué cafetera comprar?</h1>
     <p>
       Hoy en día existe una amplia variedad de cafeteras en el mercado
@@ -200,7 +399,7 @@ p {
 }
 .machine-types {
   display: flex;
-  gap: 8px;
+  gap: 32px;
   flex-wrap: wrap;
 }
 .machine-type {
@@ -214,6 +413,11 @@ p {
 }
 .machine-type-image {
   object-fit: cover;
+  width: 100%;
+  height: 156px;
+}
+.machine-brand-image {
+  object-fit: contain;
   width: 100%;
   height: 156px;
 }
