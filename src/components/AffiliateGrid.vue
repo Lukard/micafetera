@@ -60,7 +60,7 @@ export default {
 .container {
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 16px;
 }
 .see_more:link {
   text-decoration: inherit;

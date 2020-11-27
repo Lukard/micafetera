@@ -30,7 +30,7 @@ export default {
 <style scoped>
 .content {
   margin-top: 16px;
-  max-width: 800px;
+  max-width: 1024px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;

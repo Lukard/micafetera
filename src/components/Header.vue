@@ -18,8 +18,15 @@ export default {
   justify-content: center;
 }
 .header-image {
-  width: 60%;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  width: 100%;
+  margin: 16px;
+}
+@media (min-width: 768px) {
+  .header-image {
+    width: 60%;
+    max-width: 1024px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
 }
 </style>

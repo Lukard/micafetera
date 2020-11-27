@@ -18,9 +18,9 @@ export default {
   height: 256px;
   position: relative;
 }
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
   .item {
-    width: calc(800px / 3);
+    width: calc(1024px / 3);
     height: 256px;
     position: relative;
   }

@@ -83,9 +83,9 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
   .container {
-    width: calc(800px / 3 - 40px);
+    width: calc(1024px / 3 - 45px);
     border: 1px solid black;
     border-radius: 8px;
     padding: 16px;
