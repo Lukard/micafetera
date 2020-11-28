@@ -63,7 +63,7 @@
       </article>
       <article class="machine-type">
         <img
-          src="../assets/home_type_italian.jpeg"
+          src="../assets/home_type_italian.webp"
           alt="Cafeteras italianas"
           class="machine-type-image"
         />

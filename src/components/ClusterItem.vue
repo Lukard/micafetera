@@ -1,6 +1,6 @@
 <template>
   <li class="item">
-    <img class="image" :src="image" />
+    <img class="image" :src="image" :alt="text" />
     <h2 class="title">{{ text }}</h2>
   </li>
 </template>
