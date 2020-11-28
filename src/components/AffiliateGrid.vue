@@ -38,6 +38,7 @@
     />
     <a
       target="_blank"
+      rel="nofollow noopener noreferrer"
       href="https://www.amazon.es/gp/search?ie=UTF8&tag=micafetera-21&linkCode=ur2&linkId=045abbe3c77f57fd4370bc2e31ba9841&camp=3638&creative=24630&index=aps&keywords=cafeteras"
       class="see_more"
       >Ver más <b>OFERTAS</b> en Amazon</a

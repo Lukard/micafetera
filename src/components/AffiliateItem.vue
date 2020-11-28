@@ -4,12 +4,17 @@
       class="image"
       :title="info.title"
       target="_blank"
-      rel="nofollow"
+      rel="nofollow noopener noreferrer"
       :href="affiliateUrl"
     >
       <img :src="info.image" :alt="info.title" height="90%" />
     </a>
-    <a :title="info.title" target="_blank" rel="nofollow" :href="affiliateUrl">
+    <a
+      :title="info.title"
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+      :href="affiliateUrl"
+    >
       <h2>{{ info.title }}</h2>
     </a>
     <img class="prime" src="../assets/prime.png" alt="Prime" />
@@ -25,7 +30,7 @@
       class="buy"
       title="Comprar en Amazon"
       target="_blank"
-      rel="nofollow"
+      rel="nofollow noopener noreferrer"
       :href="affiliateUrl"
       ><b>Comprar en Amazon</b></a
     >
