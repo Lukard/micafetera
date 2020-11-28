@@ -35,7 +35,7 @@
           alt="Cafeteras express"
           class="machine-type-image"
         />
-        <h3 class="machine-type-title">Cafeteras express</h3>
+        <h2 class="machine-type-title">Cafeteras express</h2>
       </article>
       <article class="machine-type">
         <img
@@ -43,7 +43,7 @@
           alt="Cafeteras automáticas"
           class="machine-type-image"
         />
-        <h3 class="machine-type-title">Cafeteras automáticas</h3>
+        <h2 class="machine-type-title">Cafeteras automáticas</h2>
       </article>
       <article class="machine-type">
         <img
@@ -51,7 +51,7 @@
           alt="Cafeteras de cápsulas"
           class="machine-type-image"
         />
-        <h3 class="machine-type-title">Cafeteras de cápsulas</h3>
+        <h2 class="machine-type-title">Cafeteras de cápsulas</h2>
       </article>
       <article class="machine-type">
         <img
@@ -59,7 +59,7 @@
           alt="Cafeteras de goteo"
           class="machine-type-image"
         />
-        <h3 class="machine-type-title">Cafeteras de goteo</h3>
+        <h2 class="machine-type-title">Cafeteras de goteo</h2>
       </article>
       <article class="machine-type">
         <img
@@ -67,7 +67,7 @@
           alt="Cafeteras italianas"
           class="machine-type-image"
         />
-        <h3 class="machine-type-title">Cafeteras italianas</h3>
+        <h2 class="machine-type-title">Cafeteras italianas</h2>
       </article>
       <article class="machine-type">
         <img
@@ -75,7 +75,7 @@
           alt="Cafeteras de émbolo"
           class="machine-type-image"
         />
-        <h3 class="machine-type-title">Cafeteras de émbolo</h3>
+        <h2 class="machine-type-title">Cafeteras de émbolo</h2>
       </article>
     </div>
     <h1>Marcas de cafeteras</h1>
@@ -90,7 +90,7 @@
           alt="Cafeteras Delonghi"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Delonghi</h3>
+        <h2 class="machine-type-title">Cafeteras Delonghi</h2>
       </article>
       <article class="machine-type">
         <img
@@ -98,7 +98,7 @@
           alt="Cafeteras Nespresso"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Nespresso</h3>
+        <h2 class="machine-type-title">Cafeteras Nespresso</h2>
       </article>
       <article class="machine-type">
         <img
@@ -106,7 +106,7 @@
           alt="Cafeteras Krups"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Krups</h3>
+        <h2 class="machine-type-title">Cafeteras Krups</h2>
       </article>
       <article class="machine-type">
         <img
@@ -114,7 +114,7 @@
           alt="Cafeteras Cecotec"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Cecotec</h3>
+        <h2 class="machine-type-title">Cafeteras Cecotec</h2>
       </article>
       <article class="machine-type">
         <img
@@ -122,7 +122,7 @@
           alt="Cafeteras Philips"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Philips</h3>
+        <h2 class="machine-type-title">Cafeteras Philips</h2>
       </article>
       <article class="machine-type">
         <img
@@ -130,7 +130,7 @@
           alt="Cafeteras Melitta"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Melitta</h3>
+        <h2 class="machine-type-title">Cafeteras Melitta</h2>
       </article>
       <article class="machine-type">
         <img
@@ -138,7 +138,7 @@
           alt="Cafeteras Ikohs"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Ikohs</h3>
+        <h2 class="machine-type-title">Cafeteras Ikohs</h2>
       </article>
       <article class="machine-type">
         <img
@@ -146,7 +146,7 @@
           alt="Cafeteras Siemens"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Siemens</h3>
+        <h2 class="machine-type-title">Cafeteras Siemens</h2>
       </article>
       <article class="machine-type">
         <img
@@ -154,7 +154,7 @@
           alt="Cafeteras Bosch"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Bosch</h3>
+        <h2 class="machine-type-title">Cafeteras Bosch</h2>
       </article>
       <article class="machine-type">
         <img
@@ -162,7 +162,7 @@
           alt="Cafeteras Ufesa"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Ufesa</h3>
+        <h2 class="machine-type-title">Cafeteras Ufesa</h2>
       </article>
       <article class="machine-type">
         <img
@@ -170,7 +170,7 @@
           alt="Cafeteras Taurus"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Taurus</h3>
+        <h2 class="machine-type-title">Cafeteras Taurus</h2>
       </article>
       <article class="machine-type">
         <img
@@ -178,7 +178,7 @@
           alt="Cafeteras BonsenKitchen"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras BonsenKitchen</h3>
+        <h2 class="machine-type-title">Cafeteras BonsenKitchen</h2>
       </article>
       <article class="machine-type">
         <img
@@ -186,7 +186,7 @@
           alt="Cafeteras Aigostar"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Aigostar</h3>
+        <h2 class="machine-type-title">Cafeteras Aigostar</h2>
       </article>
       <article class="machine-type">
         <img
@@ -194,7 +194,7 @@
           alt="Cafeteras Russell Hobbs"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Rusell Hobbs</h3>
+        <h2 class="machine-type-title">Cafeteras Rusell Hobbs</h2>
       </article>
       <article class="machine-type">
         <img
@@ -202,7 +202,7 @@
           alt="Cafeteras Tristar"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Tristar</h3>
+        <h2 class="machine-type-title">Cafeteras Tristar</h2>
       </article>
       <article class="machine-type">
         <img
@@ -210,7 +210,7 @@
           alt="Cafeteras Orbegozo"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Orbegozo</h3>
+        <h2 class="machine-type-title">Cafeteras Orbegozo</h2>
       </article>
       <article class="machine-type">
         <img
@@ -218,7 +218,7 @@
           alt="Cafeteras Monix"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Monix</h3>
+        <h2 class="machine-type-title">Cafeteras Monix</h2>
       </article>
       <article class="machine-type">
         <img
@@ -226,7 +226,7 @@
           alt="Cafeteras Godmorn"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Godmorn</h3>
+        <h2 class="machine-type-title">Cafeteras Godmorn</h2>
       </article>
       <article class="machine-type">
         <img
@@ -234,7 +234,7 @@
           alt="Cafeteras Bialetti"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Bialetti</h3>
+        <h2 class="machine-type-title">Cafeteras Bialetti</h2>
       </article>
       <article class="machine-type">
         <img
@@ -242,7 +242,7 @@
           alt="Cafeteras Magfesa"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Magfesa</h3>
+        <h2 class="machine-type-title">Cafeteras Magfesa</h2>
       </article>
       <article class="machine-type">
         <img
@@ -250,7 +250,7 @@
           alt="Cafeteras Oroley"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Oroley</h3>
+        <h2 class="machine-type-title">Cafeteras Oroley</h2>
       </article>
       <article class="machine-type">
         <img
@@ -258,7 +258,7 @@
           alt="Cafeteras bonVIVO"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras bonVIVO</h3>
+        <h2 class="machine-type-title">Cafeteras bonVIVO</h2>
       </article>
       <article class="machine-type">
         <img
@@ -266,7 +266,7 @@
           alt="Cafeteras Bodum"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Bodum</h3>
+        <h2 class="machine-type-title">Cafeteras Bodum</h2>
       </article>
       <article class="machine-type">
         <img
@@ -274,7 +274,7 @@
           alt="Cafeteras Gronenberg"
           class="machine-brand-image"
         />
-        <h3 class="machine-type-title">Cafeteras Gronenberg</h3>
+        <h2 class="machine-type-title">Cafeteras Gronenberg</h2>
       </article>
     </div>
   </Frame>
