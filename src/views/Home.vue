@@ -31,7 +31,7 @@
     <div class="machine-types">
       <article class="machine-type">
         <img
-          src="../assets/home_type_express.jpg"
+          src="../assets/home_type_express.webp"
           alt="Cafeteras express"
           class="machine-type-image"
         />
