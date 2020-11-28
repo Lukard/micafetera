@@ -42,7 +42,7 @@
         De cápsulas
       </ul>
     </nav>
-    <button class="fab" @click="show = !show">
+    <button class="fab" @click="show = !show" aria-label="Menú">
       <div class="bar"></div>
       <div class="bar"></div>
       <div class="bar"></div>
