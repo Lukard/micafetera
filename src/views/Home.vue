@@ -71,7 +71,7 @@
       </article>
       <article class="machine-type">
         <img
-          src="../assets/home_type_french.jpg"
+          src="../assets/home_type_french.webp"
           alt="Cafeteras de émbolo"
           class="machine-type-image"
         />
@@ -86,7 +86,7 @@
     <div class="machine-types">
       <article class="machine-type">
         <img
-          src="../assets/brand_delonghi.png"
+          src="../assets/brand_delonghi.webp"
           alt="Cafeteras Delonghi"
           class="machine-brand-image"
         />
@@ -230,7 +230,7 @@
       </article>
       <article class="machine-type">
         <img
-          src="../assets/brand_bialetti.png"
+          src="../assets/brand_bialetti.webp"
           alt="Cafeteras Bialetti"
           class="machine-brand-image"
         />
@@ -288,7 +288,7 @@
     <div class="section-body">
       <a class="section-image" href="https://amzn.to/32onA0z" rel="nofollow">
         <img
-          src="../assets/home_express.png"
+          src="../assets/home_express.webp"
           alt="Cafetera express"
           width="100%"
         />
@@ -322,7 +322,7 @@
     <div class="section-body">
       <a class="section-image" href="https://amzn.to/32onA0z" rel="nofollow">
         <img
-          src="../assets/home_automatic.png"
+          src="../assets/home_automatic.webp"
           alt="Cafetera express"
           width="100%"
         />
