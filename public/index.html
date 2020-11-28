@@ -26,13 +26,26 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <title>Mi Cafetera</title>
+    <!-- Questrial Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      id="external-css"
-      rel="stylesheet"
-      type="text/css"
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css?family=Questrial&amp;display=swap"
-      media="all"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Questrial&amp;display=swap"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://fonts.googleapis.com/css?family=Questrial&amp;display=swap"
+      />
+    </noscript>
   </head>
   <body>
     <noscript>
