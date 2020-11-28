@@ -55,7 +55,7 @@
       </article>
       <article class="machine-type">
         <img
-          src="../assets/home_type_dropping.jpg"
+          src="../assets/home_type_dropping.webp"
           alt="Cafeteras de goteo"
           class="machine-type-image"
         />
@@ -102,7 +102,7 @@
       </article>
       <article class="machine-type">
         <img
-          src="../assets/brand_krups.png"
+          src="../assets/brand_krups.webp"
           alt="Cafeteras Krups"
           class="machine-brand-image"
         />
@@ -118,7 +118,7 @@
       </article>
       <article class="machine-type">
         <img
-          src="../assets/brand_philips.png"
+          src="../assets/brand_philips.webp"
           alt="Cafeteras Philips"
           class="machine-brand-image"
         />
@@ -142,7 +142,7 @@
       </article>
       <article class="machine-type">
         <img
-          src="../assets/brand_siemens.png"
+          src="../assets/brand_siemens.webp"
           alt="Cafeteras Siemens"
           class="machine-brand-image"
         />
@@ -150,7 +150,7 @@
       </article>
       <article class="machine-type">
         <img
-          src="../assets/brand_bosch.png"
+          src="../assets/brand_bosch.webp"
           alt="Cafeteras Bosch"
           class="machine-brand-image"
         />
@@ -254,7 +254,7 @@
       </article>
       <article class="machine-type">
         <img
-          src="../assets/brand_bonvivo.png"
+          src="../assets/brand_bonvivo.webp"
           alt="Cafeteras bonVIVO"
           class="machine-brand-image"
         />

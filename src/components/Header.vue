@@ -1,7 +1,7 @@
 <template>
   <div class="header-image-container">
     <router-link :to="{ name: 'Home' }" class="header-image" rel="home">
-      <img src="../assets/micafetera.png" alt="Mi Cafetera" width="100%" />
+      <img src="../assets/micafetera.webp" alt="Mi Cafetera" width="100%" />
     </router-link>
   </div>
 </template>
