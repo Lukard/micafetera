@@ -49,33 +49,30 @@ export default {
   mounted: async function() {
     const url = `https://cors-anywhere.herokuapp.com/${this.productUrl}`;
     const html = await (await fetch(url)).text();
-    let promise = new Promise(() => {
-      const doc = new DOMParser().parseFromString(html, 'text/html');
-      const title =
-        doc.getElementById('productTitle')?.textContent?.trim() ??
-        doc.getElementById('title')?.textContent?.trim();
-      const image =
-        doc.getElementById('landingImage')?.getAttribute('data-old-hires') ??
-        doc.getElementById('main-image')?.getAttribute('data-a-hires');
-      const isPrime =
-        doc
-          .getElementById('priceBadging_feature_div')
-          ?.getElementsByClassName('a-icon-prime') !== undefined;
-      const previousPrice = doc.getElementsByClassName(
-        'priceBlockStrikePriceString'
-      )[0]?.textContent;
-      const price =
-        doc.getElementById('priceblock_ourprice')?.textContent ??
-        doc.getElementById('priceblock_dealprice')?.textContent;
-      this.info = {
-        title: title,
-        image: image,
-        isPrime: isPrime,
-        previousPrice: previousPrice,
-        price: price,
-      };
-    });
-    await promise;
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const title =
+      doc.getElementById('productTitle')?.textContent?.trim() ??
+      doc.getElementById('title')?.textContent?.trim();
+    const image =
+      doc.getElementById('landingImage')?.getAttribute('data-old-hires') ??
+      doc.getElementById('main-image')?.getAttribute('data-a-hires');
+    const isPrime =
+      doc
+        .getElementById('priceBadging_feature_div')
+        ?.getElementsByClassName('a-icon-prime') !== undefined;
+    const previousPrice = doc.getElementsByClassName(
+      'priceBlockStrikePriceString'
+    )[0]?.textContent;
+    const price =
+      doc.getElementById('priceblock_ourprice')?.textContent ??
+      doc.getElementById('priceblock_dealprice')?.textContent;
+    this.info = {
+      title: title,
+      image: image,
+      isPrime: isPrime,
+      previousPrice: previousPrice,
+      price: price,
+    };
   },
 };
 </script>
