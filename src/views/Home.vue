@@ -334,6 +334,11 @@
         las <b>cafeteras express o superautomáticas</b>.
       </li>
     </ul>
+    <p>
+      Te encuentras en
+      <b>el sitio perfecto para encontrar esa cafetera perfecta</b>
+      que te proporcionará a ti y a los tuyos unas mañanas redondas.
+    </p>
   </Frame>
 </template>
 
@@ -356,6 +361,7 @@ export default {
 p,
 li {
   line-height: 150%;
+  font-size: large;
 }
 li {
   margin-bottom: 8px;
