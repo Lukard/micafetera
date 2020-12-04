@@ -277,6 +277,63 @@
         <h2 class="machine-type-title">Cafeteras Gronenberg</h2>
       </article>
     </div>
+    <h1>Tipos y modelos de cafeteras: Beneficios y Desventajas</h1>
+    <p>
+      Si aún no tienes claro que cafetera es la que más se ajusta a ti a
+      continuación te indicamos nuestro criterio a la hora de seleccionar la
+      mejor cafetera:
+    </p>
+    <img
+      src="../assets/home_select_coffee_machine.webp"
+      alt="Gente bebiendo diferentes tipos de café"
+      class="types-and-models-image"
+    />
+    <ul>
+      <li>
+        <b>Potenciar las propiedades del cafe.</b> Cada tipo de cafetera procesa
+        y produce el café de una manera única. Lo que implica que dependiendo de
+        nuestros gustos deberíamos optar por un tipo de cafetea u otra. Si lo
+        que te gusta es
+        <i>mantener las propiedades y matices de los granos de café</i> quizá
+        quieras optar por las cafeteras más tradicionales cómo las
+        <b>cafeteras francesas</b> o <b>cafeteras italianas</b>. Si, en vez de
+        los sabores originales de la tierra, andas en busca de un
+        <i>café intenso</i> deberías optar por una <b>cafetera express</b> o
+        <b>cafetera superautomática</b>.
+      </li>
+      <li>
+        <b>Crema sí o crema no</b>. El mundo cafetero se encuentra divido entre
+        los que les gusta un buen café con su espesa espuma (o crema) o los que
+        por lo contrario desean degustar un <i>café limpio y líquido</i>. Si tu
+        eres de estos últimos todas las cafeteras que infusionan como las
+        <b>cafeteras francesas</b>. También las <b>cafeteras italianas</b> o las
+        <b>cafeteras de goteo</b> produciran este mismo café. Por otro lado si
+        tu <i>disfrutas tanto del café como de su crema</i> dispones de una
+        amplia gama de cafeteras que gracias a la presión con la que el agua
+        filtra el café producen esta deliciosa crema. Las
+        <b>cafeteras express</b> o las <b>cafeteras superautomáticas</b> así
+        como las de capsulas son un buen ejemplo de ello.
+      </li>
+      <li>
+        <b>Comodidad</b>. El tiempo es oro y no siempre tenemos las ganas de
+        invertir mucho tiempo en la preparación de nuestro bebida oscura
+        favorita. Pero eso hoy en día no nos impide disfurtar de una estupenda
+        taza de café. <i>Sí no disponemos de mucho tiempo</i> o no queremos
+        complicarnos con la elaboración lo mejor es optar por las
+        <b>cafeteras superautomáticas</b> o las <b>cafeteras de cápsulas</b>. Si
+        por el contrario <i>dispones de tiempo</i> y te apasiona la elaboración
+        deberías optar por las cafeteras más tradicionales, como las
+        <b>cafeteras italianas</b> o las <b>cafeteras francesas</b>.
+      </li>
+      <li>
+        <b>Precio</b>. No nos engañemos, un factor clave para seleccionar la
+        cafetera será el dinero que estemos dispuestos a invertir en nuestra
+        máquina cafetera. La buena noticia es que las hay de todos los precios.
+        Desde muy <i>baratas</i> como las
+        <b>cafeteras francesas o italianas</b> a cafeteras más <i>caras</i> como
+        las <b>cafeteras express o superautomáticas</b>.
+      </li>
+    </ul>
   </Frame>
 </template>
 
@@ -296,8 +353,12 @@ export default {
 </script>
 
 <style scoped>
-p {
+p,
+li {
   line-height: 150%;
+}
+li {
+  margin-bottom: 8px;
 }
 .machine-types {
   display: flex;
@@ -325,5 +386,10 @@ p {
 }
 .machine-type-title {
   margin-top: 8px;
+}
+.types-and-models-image {
+  object-fit: cover;
+  width: 100%;
+  height: 512px;
 }
 </style>
