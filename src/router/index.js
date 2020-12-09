@@ -66,7 +66,7 @@ router.beforeEach((to, from, next) => {
   // If a route with a title was found, set the document (page) title to that value.
   if (nearestWithTitle) {
     document.title = nearestWithTitle.meta.title;
-  } else {
+  } else if (previousNearestWithMeta) {
     document.title = previousNearestWithMeta.meta.title;
   }
 

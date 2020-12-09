@@ -9,4 +9,7 @@ module.exports = {
       routes,
     },
   },
+  configureWebpack: {
+    devtool: 'source-map',
+  },
 };

@@ -14,7 +14,7 @@
         De goteo
       </ul>
       <ul class="navigation-item">
-        De émbolo
+        Prensa francesa
       </ul>
       <ul class="navigation-item">
         De cápsulas
@@ -36,7 +36,7 @@
         De goteo
       </ul>
       <ul class="navigation-item">
-        De émbolo
+        Prensa francesa
       </ul>
       <ul class="navigation-item">
         De cápsulas

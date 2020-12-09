@@ -72,10 +72,10 @@
       <article class="machine-type">
         <img
           src="../assets/home_type_french.webp"
-          alt="Cafeteras de émbolo"
+          alt="Cafeteras de prensa francesa"
           class="machine-type-image"
         />
-        <h2 class="machine-type-title">Cafeteras de émbolo</h2>
+        <h2 class="machine-type-title">Cafeteras de prensa francesa</h2>
       </article>
     </div>
     <h1>Marcas de cafeteras</h1>
@@ -86,11 +86,11 @@
     <div class="machine-types">
       <article class="machine-type">
         <img
-          src="../assets/brand_delonghi.webp"
-          alt="Cafeteras Delonghi"
+          src="../assets/brand_dolce_gusto.webp"
+          alt="Cafeteras Dolce Gusto"
           class="machine-brand-image"
         />
-        <h2 class="machine-type-title">Cafeteras Delonghi</h2>
+        <h2 class="machine-type-title">Cafeteras Dolce Gusto</h2>
       </article>
       <article class="machine-type">
         <img
@@ -99,6 +99,22 @@
           class="machine-brand-image"
         />
         <h2 class="machine-type-title">Cafeteras Nespresso</h2>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_oster.webp"
+          alt="Cafeteras Oster"
+          class="machine-brand-image"
+        />
+        <h2 class="machine-type-title">Cafeteras Oster</h2>
+      </article>
+      <article class="machine-type">
+        <img
+          src="../assets/brand_delonghi.webp"
+          alt="Cafeteras Delonghi"
+          class="machine-brand-image"
+        />
+        <h2 class="machine-type-title">Cafeteras Delonghi</h2>
       </article>
       <article class="machine-type">
         <img
