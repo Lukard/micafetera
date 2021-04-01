@@ -48,7 +48,7 @@ export default {
   props: ['productUrl', 'affiliateUrl'],
   mounted: async function() {
     const url = this.productUrl;
-    const html = await (await fetch(url)).text();
+    const html = await (await fetch(url, {headers: {'Access-Control-Allow-Origin': '*'}})).text();
     const doc = new DOMParser().parseFromString(html, 'text/html');
     const title =
       doc.getElementById('productTitle')?.textContent?.trim() ??
