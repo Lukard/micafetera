@@ -17,7 +17,7 @@
       toda la vida. <b>Busca y compara</b> los diferentes modelos y anímate a
       comprar el modelo que más te guste.
     </p>
-    <h1>Análisis de las mejores cafeteras de 2020</h1>
+    <h1>Análisis de las mejores cafeteras de 2021</h1>
     <Cluster />
     <h1>Catálogo de cafetras al mejor precio:</h1>
     <AffiliateGrid />
