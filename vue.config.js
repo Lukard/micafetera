@@ -11,9 +11,5 @@ module.exports = {
   },
   configureWebpack: {
     devtool: 'source-map',
-    devServer: {
-      proxy: 'https://micafetera.net/',
-      headers: { "Access-Control-Allow-Origin": "*" },
-    },
   },
 };

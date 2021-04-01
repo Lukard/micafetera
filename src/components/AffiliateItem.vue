@@ -47,8 +47,8 @@ export default {
   },
   props: ['productUrl', 'affiliateUrl'],
   mounted: async function() {
-    const url = this.productUrl;
-    const html = await (await fetch(url, {headers: {'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET', 'Access-Control-Allow-Headers': 'Access-Control-Allow-Methods, Access-Control-Allow-Origin, Origin, Accept, Content-Type'}})).text();
+    const url = `https://osm-web-cors-proxy.herokuapp.com/${this.productUrl}`;
+    const html = await (await fetch(url)).text();
     const doc = new DOMParser().parseFromString(html, 'text/html');
     const title =
       doc.getElementById('productTitle')?.textContent?.trim() ??
