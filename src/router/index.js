@@ -9,7 +9,7 @@ export const routes = [
     name: 'Home',
     component: () => import('../views/Home.vue'),
     meta: {
-      title: 'Tu Mejor Cafetera de 2020 para disfrutar de un buen café',
+      title: 'Tu Mejor Cafetera de 2021 para disfrutar de un buen café',
       metaTags: [
         {
           name: 'description',

@@ -2,7 +2,7 @@
   <ul class="cluster">
     <ClusterItem
       :image="require('../assets/home_automatic.webp')"
-      text="Krups EA8108 Roma: La mejor cafetera automática del 2020 calidad-precio"
+      text="Krups EA8108 Roma: La mejor cafetera automática del 2021 calidad-precio"
     />
     <ClusterItem
       :image="require('../assets/home_express.webp')"
