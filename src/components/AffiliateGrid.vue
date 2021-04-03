@@ -2,7 +2,7 @@
   <div class="container">
     <AffiliateItem
       productUrl="https://www.amazon.es/Krups-EA8108-s%C3%BAper-autom%C3%A1tica-selecci%C3%B3n-intensidad/dp/B00INSX904"
-      affiliateUrl="https://amzn.to/2KbijDe"
+      affiliateUrl="https://amzn.to/3cLWfen"
     />
     <AffiliateItem
       productUrl="https://www.amazon.es/gp/product/B07MMSHC4R?ie=UTF8"
