@@ -3,6 +3,7 @@
     <ClusterItem
       :image="require('../assets/home_automatic.webp')"
       text="Krups EA8108 Roma: La mejor cafetera automática del 2021 calidad-precio"
+      route="KrupsEA8108Roma"
     />
     <ClusterItem
       :image="require('../assets/home_express.webp')"
@@ -28,10 +29,10 @@
 </template>
 
 <script>
-import ClusterItem from '@/components/ClusterItem.vue';
+import ClusterItem from "@/components/ClusterItem.vue";
 
 export default {
-  name: 'Cluster',
+  name: "Cluster",
   components: {
     ClusterItem,
   },

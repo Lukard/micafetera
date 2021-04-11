@@ -1,14 +1,21 @@
 <template>
-  <li class="item">
+  <li class="item" v-on:click="navigate()">
     <img class="image" :src="image" :alt="text" />
     <h2 class="title">{{ text }}</h2>
   </li>
 </template>
 
 <script>
+import router from "@/router/index.js";
+
 export default {
-  name: 'ClusterItem',
-  props: ['image', 'text'],
+  name: "ClusterItem",
+  props: ["image", "text", "route"],
+  methods: {
+    navigate() {
+      router.push({ name: this.route });
+    },
+  },
 };
 </script>
 
@@ -26,7 +33,7 @@ export default {
   }
 }
 .item:after {
-  content: ' ';
+  content: " ";
   z-index: 0;
   background: linear-gradient(to bottom, transparent 0%, #000 100%);
   position: absolute;
@@ -35,8 +42,11 @@ export default {
   width: 100%;
   height: 100%;
 }
+.item:hover {
+  cursor: pointer;
+}
 .item:hover:after {
-  content: ' ';
+  content: " ";
   z-index: 0;
   background: linear-gradient(to bottom, transparent 0%, rgb(59, 59, 59) 100%);
   position: absolute;

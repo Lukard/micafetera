@@ -359,12 +359,12 @@
 </template>
 
 <script>
-import Frame from '@/components/Frame.vue';
-import Cluster from '@/components/Cluster.vue';
-import AffiliateGrid from '@/components/AffiliateGrid.vue';
+import Frame from "@/components/Frame.vue";
+import Cluster from "@/components/Cluster.vue";
+import AffiliateGrid from "@/components/AffiliateGrid.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     Frame,
     Cluster,

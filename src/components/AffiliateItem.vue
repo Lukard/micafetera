@@ -1,5 +1,8 @@
 <template>
-  <div v-if="info != null" class="container">
+  <div
+    v-if="info != null && (relevant == null || isSmartphone == true)"
+    class="container"
+  >
     <a
       class="image"
       :title="info.title"
@@ -32,47 +35,93 @@
       target="_blank"
       rel="nofollow noopener noreferrer"
       :href="affiliateUrl"
-      ><b>Comprar en Amazon</b></a
     >
+      <b>
+        {{
+          info.price != null
+            ? "Comprar en Amazon"
+            : "Consultar precio en Amazon"
+        }}
+      </b>
+    </a>
+  </div>
+  <div
+    v-else-if="info != null && relevant != null"
+    class="container container-horizontal"
+  >
+    <a
+      class="image-relevant"
+      :title="info.title"
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+      :href="affiliateUrl"
+    >
+      <img :src="info.image" :alt="info.title" width="100%" />
+    </a>
+    <div class="relevant-horizontal">
+      <a
+        :title="info.title"
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        :href="affiliateUrl"
+      >
+        <h2 class="title-relevant">{{ info.title }}</h2>
+      </a>
+      <img class="prime" src="../assets/prime.png" alt="Prime" />
+      <div class="priceContainer">
+        <p class="previousPrice">
+          {{ info.previousPrice }}
+        </p>
+        <p class="price">
+          <b>{{ info.price }}</b>
+        </p>
+      </div>
+      <a
+        class="buy"
+        title="Comprar en Amazon"
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        :href="affiliateUrl"
+      >
+        <b>
+          {{
+            info.price != null
+              ? "Comprar en Amazon"
+              : "Consultar precio en Amazon"
+          }}
+        </b>
+      </a>
+    </div>
   </div>
 </template>
 
 <script>
+import { getArticleInfo } from "@/utils/articleInfo.js";
+
 export default {
-  name: 'AffiliateItem',
+  name: "AffiliateItem",
   data() {
     return {
       info: null,
+      isSmartphone: window.innerWidth <= 1024,
     };
   },
-  props: ['productUrl', 'affiliateUrl'],
-  mounted: async function() {
-    const url = `https://osm-web-cors-proxy.herokuapp.com/${this.productUrl}`;
-    const html = await (await fetch(url)).text();
-    const doc = new DOMParser().parseFromString(html, 'text/html');
-    const title =
-      doc.getElementById('productTitle')?.textContent?.trim() ??
-      doc.getElementById('title')?.textContent?.trim();
-    const image =
-      doc.getElementById('landingImage')?.getAttribute('data-old-hires') ??
-      doc.getElementById('main-image')?.getAttribute('data-a-hires');
-    const isPrime =
-      doc
-        .getElementById('priceBadging_feature_div')
-        ?.getElementsByClassName('a-icon-prime') !== undefined;
-    const previousPrice = doc.getElementsByClassName(
-      'priceBlockStrikePriceString'
-    )[0]?.textContent;
-    const price =
-      doc.getElementById('priceblock_ourprice')?.textContent ??
-      doc.getElementById('priceblock_dealprice')?.textContent;
-    this.info = {
-      title: title,
-      image: image,
-      isPrime: isPrime,
-      previousPrice: previousPrice,
-      price: price,
-    };
+  props: ["productUrl", "affiliateUrl", "relevant"],
+  mounted: async function () {
+    window.addEventListener("resize", this.onResize);
+    this.info = await getArticleInfo(this.productUrl);
+  },
+  methods: {
+    onResize() {
+      this.isSmartphone = window.innerWidth <= 1024;
+      console.log(window.innerWidth);
+      console.log(this.isSmartphone);
+      console.log(this.relevant);
+      console.log(
+        this.info != null &&
+          (this.relevant == null || this.isSmartphone == true)
+      );
+    },
   },
 };
 </script>
@@ -82,11 +131,16 @@ export default {
   border: 1px solid black;
   border-radius: 8px;
   padding: 16px;
-  width: 100%;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.container-horizontal {
+  flex-direction: row;
+  width: 100% !important;
+  max-width: 600px;
+  margin: auto;
 }
 @media (min-width: 1024px) {
   .container {
@@ -98,11 +152,21 @@ export default {
     justify-content: center;
   }
 }
+.relevant-horizontal {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
 .image {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 256px;
+}
+.image-relevant {
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
 }
 .prime {
   margin-right: 0;
@@ -135,8 +199,8 @@ export default {
   background: linear-gradient(to bottom, #f5d78e, #eeb933);
 }
 .buy:before {
-  content: ' ';
-  background: url('../assets/shopping_cart.svg') no-repeat;
+  content: " ";
+  background: url("../assets/shopping_cart.svg") no-repeat;
   width: 36px;
   transform: scale(0.45);
   position: absolute;
@@ -168,5 +232,9 @@ h2 {
 }
 h2:hover {
   color: #0275d8;
+}
+.title-relevant {
+  overflow: inherit;
+  max-height: inherit;
 }
 </style>

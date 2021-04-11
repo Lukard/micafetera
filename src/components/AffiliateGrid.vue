@@ -47,10 +47,10 @@
 </template>
 
 <script>
-import AffiliateItem from '@/components/AffiliateItem.vue';
+import AffiliateItem from "@/components/AffiliateItem.vue";
 
 export default {
-  name: 'AffiliateGrid',
+  name: "AffiliateGrid",
   components: {
     AffiliateItem,
   },

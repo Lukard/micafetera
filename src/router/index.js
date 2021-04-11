@@ -20,6 +20,14 @@ export const routes = [
     },
   },
   {
+    path: '/automatica/krups-ea8108-roma',
+    name: 'KrupsEA8108Roma',
+    component: () => import('../views/KrupsEA8108Roma.vue'),
+    meta: {
+      title: 'Krups EA8108 Roma'
+    }
+  },
+  {
     path: '/politica-de-cookies',
     name: 'Cookies',
     component: () => import('../views/Cookies.vue'),
